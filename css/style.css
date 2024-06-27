@@ -14,7 +14,7 @@ body{
    }
 .container{
     padding-left:50px;
-    padding-right:50px;
+    padding-right: 50px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -23,13 +23,13 @@ body{
 
 @media (min-width: 768px) {
     .container {
-      width: 450px;
+      width: 350px;
     }
   }
   /* Medium */
   @media (min-width: 992px) {
     .container {
-      width: 650px;
+      width: 600px;
     }
   }
   /* Large */
@@ -38,8 +38,12 @@ body{
       width: 700px;
     }
   }
+
 .container .x{
  margin-top: 80px;
+ width: fit-content;
+ margin-left: auto;
+ margin-right: auto;
  display: flex;
  justify-content: space-between;
  background-color: #eee;
@@ -88,6 +92,12 @@ body{
   width: 60px;
   border-top: 1.5px solid black;
 }
+.container .x2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .container .tasks p{
   background-color: #eee;
   border: none;

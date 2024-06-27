@@ -58,7 +58,7 @@ body{
    padding-left: 15px;
    background-color: white;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container .x  {
     flex-direction: column;
     margin-left: auto;
